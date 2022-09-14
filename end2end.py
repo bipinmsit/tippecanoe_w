@@ -6,16 +6,6 @@ import argparse
 import subprocess
 import os
 
-'''
-"""
-Script to rearrange files, convert into mbtiles & its merging, delete old tilesets from mapbox and latest upload
-Author: Bipin Kumar
-Company: Laminaar Aviation Infotech India Pvt. Ltd.
-Date: 04 Sept 2021
-
-USECASE: >>python3 convert_to_mbtiles.py --dir <sigwx_dir>
-"""
-'''
 
 temp_merge = []  # checking subprocess thread of merge
 temp_delete = []  # checking subprocess thread of delete
